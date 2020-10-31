@@ -2,7 +2,7 @@
 
 ![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![Scikit-Learn](https://img.shields.io/badge/Library-ScikitLearn-orange.svg)![Keras](https://img.shields.io/badge/Keras-yellow.svg)![Tensorflow](https://img.shields.io/badge/Tensorflow-cyan.svg)
 
-This repository consists of files required for end to end implementation and deployment of Deep Learning Cotton Disease Classification web application created with Flask and deployed on Heroku platform.
+This repository consists of files required for end to end implementation and deployment of Deep Learning Cotton Disease Classification web application created with flask and deployed on Heroku platform.
 
 ## Table of Contents
   * [App Link](#app-link)
@@ -27,7 +27,7 @@ A glimpse of the web app:
 ![Heroku-Error](readme_resources/application-error-heroku.png)
 
 ## About the App
-The Cotton Disease Prediction is a flask web application which classifies whether the image into four categories diseased cotton leaf, diseased cotton plant, fresh cotton leaf, and fresh cotton plant. The code is written in Python 3.6.10 and makes use of Keras and Tensorflow libraries in developing an InceptionV3 based image classification web application. 
+The Cotton Disease Predictor is a flask web application which classifies a cotton plant/leaf image into four categories viz. diseased cotton leaf, diseased cotton plant, fresh cotton leaf, and fresh cotton plant. The code is written in Python 3.6.10 and makes use of Keras and Tensorflow libraries in developing an InceptionV3 based image classification web application. 
 If you don't have Python installed, you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
 ```bash
 pip install -r requirements.txt
