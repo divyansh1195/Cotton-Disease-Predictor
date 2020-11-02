@@ -28,6 +28,7 @@ A glimpse of the web app:
 
 ## About the App
 The Cotton Disease Predictor is a flask web application which classifies a cotton plant/leaf image into four categories viz. diseased cotton leaf, diseased cotton plant, fresh cotton leaf, and fresh cotton plant. The code is written in Python 3.6.10 and makes use of Keras and Tensorflow libraries in developing an InceptionV3 based image classification web application. 
+
 If you don't have Python installed, you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
 ```bash
 pip install -r requirements.txt
